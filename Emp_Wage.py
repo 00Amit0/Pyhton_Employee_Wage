@@ -17,12 +17,12 @@ class EmployeeWage:
             emp_wage = 0
             if check == 0:
                 print('{0} : Employee is Absent'.format(check))
-                emp_wage = wage_per_hour * 0
-                print('{0} : is employee\'s wage'.format(emp_wage))
+                daily_wage = wage_per_hour * 0
+                print('{0} : is employee\'s wage'.format(daily_wage))
             else:
                 print('{0} : Employee is Present'.format(check))
-                emp_wage = wage_per_hour * 1
-                print('{0} : is employee\'s wage'.format(emp_wage))
+                daily_wage = wage_per_hour * 1
+                print('{0} : is employee\'s wage'.format(daily_wage))
         except Exception as ex:
             print(ex)
 
