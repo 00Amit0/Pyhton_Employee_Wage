@@ -16,7 +16,7 @@ class EmployeeWage:
             if check == 0:
                 print('{0} : Employee is Absent'.format(check))
             else:
-                print('{0} : Employee is Present'.format(check)
+                print('{0} : Employee is Present'.format(check))
         except Exception as ex:
             print(ex)
 
