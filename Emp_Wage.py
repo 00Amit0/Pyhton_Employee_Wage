@@ -36,9 +36,6 @@ class EmployeeWage:
             else:
                 daily_work_hour = 4
                 print('{0} : Employee is Present , Part-Timer '.format(check))
-                # daily_wage = wage_per_hour * 4
-                # print('{0} : is employee\'s wage'.format(daily_wage))
-            return daily_work_hour
         except Exception as ex:
             print(ex)
 
