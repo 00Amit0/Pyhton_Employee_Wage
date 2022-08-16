@@ -14,7 +14,6 @@ class EmployeeWage:
         try:
             check = random.randint(0, 1)
             wage_per_hour = 20
-            emp_wage = 0
             if check == 0:
                 print('{0} : Employee is Absent'.format(check))
                 daily_wage = wage_per_hour * 0
