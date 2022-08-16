@@ -13,16 +13,10 @@ class EmployeeWage:
         logging.debug("Employee wage running")
         try:
             check = random.randint(0, 1)
-            wage_per_hour = 20
-            emp_wage = 0
             if check == 0:
                 print('{0} : Employee is Absent'.format(check))
-                emp_wage = wage_per_hour * 0
-                print('{0} : is employee\'s wage'.format(emp_wage))
             else:
-                print('{0} : Employee is Present'.format(check))
-                emp_wage = wage_per_hour * 1
-                print('{0} : is employee\'s wage'.format(emp_wage))
+                print('{0} : Employee is Present'.format(check)
         except Exception as ex:
             print(ex)
 
