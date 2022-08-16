@@ -22,6 +22,7 @@ class EmployeeWage:
                 print('{0} : Employee is Present'.format(check))
                 daily_wage = wage_per_hour * 1
                 print('{0} : is employee\'s wage'.format(daily_wage))
+
         except Exception as ex:
             print(ex)
 
